@@ -35,6 +35,17 @@
             color: #111111;
             margin-left: 8px;
         }
+
+        &_main {
+            padding: 12px 20px;
+            background: #1E3173;
+            border-radius: 24px;
+            font-family: 'Roboto';
+            font-weight: 600;
+            font-size: 18px;
+            color: #FFFFFF;
+            margin-top: 80px;
+        }
     }
 
     form {
@@ -100,11 +111,12 @@
         color: #000000;
         margin-left: 8px;
     }
-    &__chekbox{
+
+    &__chekbox {
         height: 20px;
         width: 20px;
 
-        :active{
+        :active {
             background-color: #1E3173;
         }
     }
