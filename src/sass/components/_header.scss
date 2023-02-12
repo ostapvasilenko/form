@@ -85,10 +85,27 @@
         margin-bottom: 32px;
     }
 
-    #chek{
-        margin-right: 74px;
+    #chek {
+        margin-right: 75px;
     }
-    #chek_last{
+
+    #chek_last {
         margin-right: 100px;
+    }
+
+    label {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+        margin-left: 8px;
+    }
+    &__chekbox{
+        height: 20px;
+        width: 20px;
+
+        :active{
+            background-color: #1E3173;
+        }
     }
 }
