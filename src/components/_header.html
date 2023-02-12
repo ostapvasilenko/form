@@ -1,32 +1,42 @@
-<header class="header">
+<section class="form">
     <div class="container">
         <div class="row">
-            <div class="col-4">
-                <a href=""><img src="img/QWERy.png" alt=""></a>
+            <div class="col-12 d-flex align-items-center mt-3">
+                <div class="form__icon"></div>
+                <button class="form__btn">Змінити фото</button>
+                <button class="form__btn_last">Видалити</button>
+
             </div>
-            <div class="col-4">
-                <div class="header__menu">
-                    <nav>
-                        <ul>
-                            <li><a href="">Information</a></li>
-                            <li><a href="">About us</a></li>
-                            <li><a href="">Culture</a></li>
-                        </ul>
-                    </nav>
-                </div>
+            <div class="col-3">
+                <form>
+                    <input class="form__input" type="text" id="fname" name="fname" value="Наталія"><br>
+                    <input class="form__input" type="text" id="lname" name="lname" value="Наливайко"><br><br>
+
+
             </div>
-            <div class="col-sm-8 col-lg-4 d-flex justify-content-end">
-                <div class="header__search">
-                    <img class="header__search_img" src="img/coolicon.png" alt="">
-                    <p class="header__search_text">Search</p>
-                </div>
-                <a class="menu__icon mobile"><span></span></a>
-                <ul class="menu mobile">
-                    <li><a href="" class="menu__item">Information</a></li>
-                    <li><a href="" class="menu__item">About us</a></li>
-                    <li><a href="" class="menu__item">Culture</a></li>
-                </ul>
+            <div class="col-12">
+                <h2>Про мене</h2>
+                <textarea>Вітаю, мене звати Наталія. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</textarea>
             </div>
+            <div class="col-12">
+                <h2>Локація</h2>
+                <input class="form__input" type="text" id="lname" name="lname" value="Київ, Україна">
+            </div>
+            <div class="col-12 mt-5">
+                <h2>Мови спілкування</h2>
+                <select name="lang">
+                    <option value="volvo">Українська</option>
+                    <option value="saab">Англійська</option>
+                    <option value="opel">Іспанська</option>
+                    <option value="audi">Італійська</option>
+                    <option value="audi">Португальська</option>
+                    <option value="audi">Німецька</option>
+                  </select>
+            </div>
+            <div class="col-12">
+                <h2>Досвід роботи</h2>
+            </div>
+            </form>
         </div>
     </div>
-</header>
+</section>
