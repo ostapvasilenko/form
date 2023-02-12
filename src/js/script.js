@@ -4,6 +4,7 @@ const LNAME = document.getElementById("lname");
 const ABOUT_ME = document.getElementById("about__me");
 const LOCATION_DATA = document.getElementById("location");
 const LANGUAGE_USER = document.getElementById("lang");
+const WORK_USER = document.getElementById("experience_work");
 
 FORM.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -12,10 +13,12 @@ FORM.addEventListener("submit", (event) => {
     const ABOUT = ABOUT_ME.value;
     const LOCATION = LOCATION_DATA.value;
     const LANGUAGE = LANGUAGE_USER.value;
+    const WORK = WORK_USER.value;
 
     console.log(`Fisrt Name: ${FIRST_NAME}`);
     console.log(`Last Name: ${LAST_NAME}`);
     console.log(`About me: ${ABOUT}`);
     console.log(`Location: ${LOCATION}`);
     console.log(`Language: ${LANGUAGE}`);
+    console.log(`Experience work: ${WORK}`);
 })
