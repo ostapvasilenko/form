@@ -1,6 +1,5 @@
-$(document).ready(function () {
-  $('.menu__icon').click(function () {
-    $('body').toggleClass('menu_shown');
-  });
-});
+document.getElementById("btn_first").addEventListener('click', (e) =>{
+    e.preventDefault();
+    alert('Hello!')
+})
 
