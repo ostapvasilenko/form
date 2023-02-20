@@ -9,22 +9,22 @@
             </div>
             <div class="col-3">
                 <form>
-                    <input class="form__input" type="text" id="fname" name="fname" placeholder="Наталія"><br>
-                    <input class="form__input" type="text" id="lname" name="lname" placeholder="Наливайко"><br><br>
+                    <input class="form__input" type="text" id="fname" name="first name" placeholder="Наталія"><br>
+                    <input class="form__input" type="text" id="lname" name="last name" placeholder="Наливайко"><br><br>
 
 
             </div>
             <div class="col-12">
                 <h2>Про мене</h2>
-                <textarea id="about__me">Вітаю, мене звати Наталія. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</textarea>
+                <textarea id="about__me" name="about me">Вітаю, мене звати Наталія. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</textarea>
             </div>
             <div class="col-12">
                 <h2>Локація</h2>
-                <input class="form__input" type="text" id="location" name="lname" placeholder="Київ, Україна">
+                <input class="form__input" type="text" id="location" name="location" placeholder="Київ, Україна">
             </div>
             <div class="col-12 mt-5">
                 <h2>Мови спілкування</h2>
-                <select id="lang" name="lang">
+                <select id="lang" name="language">
                     <option value="Українська">Українська</option>
                     <option value="Англійська">Англійська</option>
                     <option value="Іспанська">Іспанська</option>
@@ -37,22 +37,22 @@
                 <h2>Досвід роботи</h2>
             </div>
             <div class="col-md-12 col-lg-6 d-flex">
-                <input id="experience_work" class="form__chekbox" type="checkbox" name="chek1" value="Без досвіду роботи">
+                <input class="form__chekbox" type="radio" name="experience"  value="Без досвіду роботи">
                 <label id="chek" for="chek1">Без досвіду роботи</label><br>
-                <input id="experience_work" class="form__chekbox" type="checkbox" name="chek2" value="Від 3 до 6 років">
+                <input  class="form__chekbox" type="radio" name="experience" value="Від 3 до 6 років">
                 <label for="chek2">Від 3 до 6 років</label><br>
             </div>
             <div class="col-md-12 col-lg-7 d-flex mt-2">
-                <input id="experience_work" class="form__chekbox" type="checkbox" name="chek3" value="Від 1 до 3 років">
+                <input  class="form__chekbox" type="radio" name="experience"  value="Від 1 до 3 років">
                 <label id="chek_last" for="chek3">Від 1 до 3 років</label><br>
-                <input id="experience_work" class="form__chekbox" type="checkbox" name="chek4" value="Більше 6 років">
+                <input   class="form__chekbox" type="radio" name="experience" value="Більше 6 років">
                 <label for="chek4">Більше 6 років</label><br>
             </div>
             <div class="col-12 mt-5">
                 <h2>Термін, який готова працювати</h2>
-                <input class="form__chekbox" type="checkbox" name="chek3">
+                <input class="form__chekbox" type="checkbox" name="term of work" checked value="до 10 днів">
                 <label for="chek3">до 10 днів</label><br>
-                <input class="form__chekbox" type="checkbox" name="chek4">
+                <input class="form__chekbox" type="checkbox" name="term of work" value="від 10 днів і більше">
                 <label for="chek4">від 10 днів і більше</label><br>
             </div>
             <div class="col-12 d-flex justify-content-end">
