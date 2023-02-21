@@ -27,14 +27,22 @@ function displayData() {
 
 const FIRST_NAME = document.querySelector('#fname');
 const LAST_NAME = document.querySelector('#lname');
+const ABOUT_ME = document.querySelector('#about__me');
+const LOCATION = document.querySelector('#location');
+const LANGUAGE = document.querySelector('#lang');
+const EXPERIENCE = document.querySelectorAll(`input[name=experience]:checked`);
 
 form.addEventListener('input', (event) => {
   // отримати значення полів форми
   const value1 = FIRST_NAME.value;
   const value2 = LAST_NAME.value;
+  const value3 = ABOUT_ME.value;
+  const value4 = LOCATION.value;
+  const value5 = LANGUAGE.value;
+  const value6 = EXPERIENCE.value;
   
   // зберегти значення у localStorage
-  localStorage.setItem('myFormValues', JSON.stringify({ value1, value2 }));
+  localStorage.setItem('myFormValues', JSON.stringify({ value1, value2, value3, value4, value5, value6 }));
 });
 
 // перевірити, чи містяться дані у localStorage
@@ -43,4 +51,8 @@ if (storedValues) {
   // встановити значення полів форми відповідно до даних у localStorage
   FIRST_NAME.value = storedValues.value1;
   LAST_NAME.value = storedValues.value2;
+  ABOUT_ME.value = storedValues.value3;
+  LOCATION.value = storedValues.value4;
+  LANGUAGE.value = storedValues.value5;
+  EXPERIENCE.value = storedValues.value6;
 }
